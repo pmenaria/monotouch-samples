@@ -331,8 +331,8 @@ namespace Example_SharedResources.Screens.iPhone.Contacts
 				}
 //				cell.PhoneLabel = phoneNumbers[indexPath.Row].Label.ToString ().Replace ("_$!<", "").Replace (">!$_", "");
 //				cell.PhoneNumber = phoneNumbers[indexPath.Row].Value.ToString ();
-				cell.PhoneLabel = labels[(int)indexPath.Row].Replace ("_$!<", "").Replace (">!$_", "");
-				cell.PhoneNumber = numbers [(int)indexPath.Row];
+				cell.PhoneLabel = labels[indexPath.Row].Replace ("_$!<", "").Replace (">!$_", "");
+				cell.PhoneNumber = numbers [indexPath.Row];
 				cell.SelectionStyle = UITableViewCellSelectionStyle.None;
 
 
