@@ -91,8 +91,8 @@
     <Folder Include="Resources\" />
   </ItemGroup>
   <ItemGroup>
-    <InterfaceDefinition Include="MainScreen\MainViewController_iPad.xib" xmlns="" />
-    <InterfaceDefinition Include="MainScreen\MainViewController_iPhone.xib" xmlns="" />
+    <InterfaceDefinition Include="MainScreen\MainViewController_iPad.xib" />
+    <InterfaceDefinition Include="MainScreen\MainViewController_iPhone.xib" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Info.plist" />
